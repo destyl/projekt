@@ -1,0 +1,5 @@
+bartek_hello_homepage:
+    path:     /hello-world.html/{imie}/{nazwisko}
+    defaults: 
+        nazwisko: ""
+        _controller: BartekHelloBundle:Default:index 

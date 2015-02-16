@@ -1,0 +1,29 @@
+{% extends "MickiewiczTadeuczBundle::layout.html.twig" %}
+{% block title %}
+    <title>{{ parent() }} | Dodawanie refleksji</title>
+{%endblock%}
+{%block header %}
+    <a href="{{ path('index')}}"><h1>{{ parent() }} </h1></a>
+{%endblock%}
+{%block menu%}
+	<ul>
+		<li class="list-group-item"><a href="k1">Ksiêga pierwsza</a></li>
+		<li class="list-group-item"><a href="k2">Ksiêga druga</a></li>
+		<li class="list-group-item"><a href="k3">Ksiêga trzecia</a></li>
+		<li class="list-group-item"><a href="k4">Ksiêga czwarta</a></li>
+		<li class="list-group-item"><a href="k5">Ksiêga pi¹ta</a></li>
+		<li class="list-group-item"><a href="k6">Ksiêga szósta</a></li>
+		<li class="list-group-item"><a href="k7">Ksiêga siódma</a></li>
+		<li class="list-group-item"><a href="k8">Ksiêga ósma</a></li>
+		<li class="list-group-item"><a href="k9">Ksiêga dziewi¹ta</a></li>
+		<li class="list-group-item"><a href="k10">Ksiêga dziesi¹ta</a></li>
+		<li class="list-group-item"><a href="k11">Ksiêga jedenasta</a></li>
+		<li class="list-group-item"><a href="k12">Ksiêga dwunasta</a></li>
+    </ul>
+{%endblock%}
+{%block content%}
+	<form>
+		{{form_}}
+	</form>
+{%endblock%}
+

@@ -1,0 +1,96 @@
+#mickiewicz_tadeucz_homepage:
+#   path:     /
+#    defaults: { _controller: MickiewiczTadeuczBundle:Default:index }
+nasluch_annotations:
+   resource: "@MickiewiczTadeuczBundle/Controller"
+   type: annotation
+   
+index: 
+   path: /panTadeusz/
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Default:index.html.twig
+
+k1: 
+   path: /panTadeusz/k1
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k1.html.twig
+
+k2: 
+   path: /panTadeusz/k2
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k2.html.twig
+
+k3: 
+   path: /panTadeusz/k3
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k3.html.twig
+
+k4: 
+   path: /panTadeusz/k4
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k4.html.twig
+
+k5: 
+   path: /panTadeusz/k5
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k5.html.twig
+
+k6: 
+   path: /panTadeusz/k6
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k6.html.twig
+
+k7: 
+   path: /panTadeusz/k7
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k7.html.twig
+
+k8:
+   path: /panTadeusz/k8
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k8.html.twig
+
+k9: 
+   path: /panTadeusz/k9
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k9.html.twig
+
+k10: 
+   path: /panTadeusz/k10
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k10.html.twig
+
+k11: 
+   path: /panTadeusz/k11
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k11.html.twig
+
+k12: 
+   path: /panTadeusz/k12
+   defaults:
+       _controller: FrameworkBundle:Template:template
+       template: MickiewiczTadeuczBundle:Pages:k12.html.twig
+#
+#mickiewicz_tadeucz_reflection_add:
+#   path:/Reflection/Add
+#   defaults: {_controller: MickiewiczTadeuczBundle:Reflection.php}
+#   
+#mickiewicz_tadeucz_reflection_index:
+#   path:/Reflection
+#   defaults: {_controller: MickiewiczTadeuczBundle:Reflection.php}
+#
+#mickiewicz_tadeucz_reflection_show:
+#   path:/Reflection/Show/{id}
+#   defaults: {_controller: MickiewiczTadeuczBundle:Reflection.php}

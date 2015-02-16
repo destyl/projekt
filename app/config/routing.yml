@@ -1,0 +1,16 @@
+pracazaliczeniowa:
+    resource: "@PracazaliczeniowaBundle/Resources/config/routing.yml"
+    prefix:   /work
+
+mickiewicz_tadeucz:
+    resource: "@MickiewiczTadeuczBundle/Resources/config/routing.yml"
+    prefix:   /
+
+bartek_hello:
+    resource: "@BartekHelloBundle/Resources/config/routing.yml"
+    prefix:   /hw
+
+s175423:
+    resource: "@s175423Bundle/Resources/config/routing.php"
+    prefix:   /test
+

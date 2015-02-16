@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title %}
+	PAN TADEUSZ
+    {% endblock %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{asset('bundles/mickiewicztadeucz/css/bootstrap.css')}} ">
+</head>
+<body>
+    <header>
+	{% block header %}
+	<a href="{{ path('index')}}">Pan Tadeusz </a>
+   	{% endblock %}        
+    </header>
+    <div class="container">
+
+	<div class="row">
+        <div class="col-md-4">
+            {% block menu %}
+			{% endblock %}
+		</div>
+        <div class="col-md-8">
+			{% block content %}
+			{% endblock %}
+        </div>
+    </div>
+
+    </div>
+
+    <footer>
+        <p>(c) Zajczan</p>
+    </footer>
+</body>
+</html>

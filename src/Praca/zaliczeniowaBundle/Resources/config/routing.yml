@@ -1,0 +1,7 @@
+# pracazaliczeniowa_homepage:
+#     path:     /
+#     defaults: { _controller: PracazaliczeniowaBundle:Praca:base.html.twig }
+#
+nasluch_annotations:
+   resource: "@PracazaliczeniowaBundle/Controller"
+   type: annotation
